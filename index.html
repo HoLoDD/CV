@@ -1,116 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <title>CV Kozlov</title>
+    <meta charset="utf-8" />
     <meta name="author" content="Nikita Kozlov" />
     <meta name="description" content="summary page" />
-    <title>Summary</title>
+    <link rel="stylesheet" href="styles.css" />
+    
   </head>
   <body>
-    <header>
-      <h1 align="center">Nikita Kozlov</h1>
-      <h2 align="center">Full Stack Developer</h2>
+    <header class="header">
+        <p class="header-text">
+            <h1>Nikita Kozlov</h1> 
+            <h3>Full Stack Developer</h3>
+        </p>
     </header>
-    <img src="./main_photo.jpg" width="150" height="150" alt="Фото" />
     <main>
-      <div>
-        <article>
-          <h3>Contacts</h3>
-          <ul>
-            <li>Odessa, Ukraine</li>
-            <li>+380930836191</li>
-            <li>
-              <a href="https://www.linkedin.com/in/nikita-kozlov-054236214/">
-                <img
-                  src="linkedin-icon.svg"
-                  alt="linedin-logo"
-                  width="20"
-                  height="20"
-                />
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a href="https://t.me/holo_d">
-                <img
-                  src="telegram.svg"
-                  alt="telegram-logo"
-                  width="20"
-                  height="20"
-                />
-                Telegram
-              </a>
-            </li>
-          </ul>
-        </article>
-        <form action="#" method="post">
-          <fieldset>
-            <legend>Feedback</legend>
+      <div class="left">
+          <img class="photo" src="./main_photo.jpg" alt="Фото" />
+          <article class="skills">
+            <h2>Skills</h2>
             <ul>
-              <li>
-                <input placeholder="Name" type="text" name="Name" />
-              </li>
-              <li>
-                <input placeholder="Email" type="email" name="Email" />
-              </li>
-              <li>
-                <input
-                  placeholder="Phone Number"
-                  type="tel"
-                  name="Phone Number"
-                />
-              </li>
-              <li>
-                <label>Message:</label><br />
-                <textarea
-                  name="message"
-                  rows="3"
-                  cols="29"
-                  placeholder="Enter your message"
-                ></textarea>
-              </li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>React, Redux</li>
+                <li>Express, Mongoose</li>
+                <li>PostgreSQL, MongoDB</li>
+                <li>GIT</li>
+                <li>Figma</li>
+                <li>HTML, CSS</li>
+                <li>Java</li>
             </ul>
-            <input type="submit" value="Відправити" />
-          </fieldset>
-        </form>
-        <article>
-          <h3>Education</h3>
-          <p>
-            <i>Bachelor’s degree, Computer Science</i><br />
-            Odessa State Enviromental University<br />
-            2018 - 2022
-          </p>
-        </article>
+          </article>
+          <article class="languages">
+            <h3>Languages</h3>
+            <ul>
+                <li>English (Upper-Intermediate)</li>
+                <li>Russian (native)</li>
+                <li>Ukrainian (native)</li>
+            </ul>
+          </article>
+        </div>
+      <div class="right">
+          <h4 class="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li>Odessa, Ukraine</li>
+                <li>(+380) 93 - 083 - 61 - 91</li>
+                <li><a href="https://www.linkedin.com/in/nikita-kozlov-054236214/">LinkedIn <img
+                    src="linkedin-icon.svg"
+                    class="icon"
+                    alt="linedin-logo"
+                  /></a></li>
+                <li><a href="https://t.me/holo_d">Telegram <img
+                    src="telegram-icon.svg"
+                    class="icon"
+                    alt="telegram-logo"
+                  /></a></li>
+            </ul>
+          </article>
+          <article class="projects">
+              <h2>Projects</h2>
+              <ol>
+                  <li><a href="https://holodd.github.io/AimGame/">Aim Game</a></li>
+                  <li><a href="https://holodd.github.io/Cards/">Cards</a></li>
+                  <li><a href="https://holodd.github.io/Board/">Board</a></li>
+                  <li><a href="https://holodd.github.io/DragNdrop/">Drag & Drop</a></li>
+                  <li><a href="https://holodd.github.io/Slider/">Slider</a></li>
+              </ol>
+          </article>
       </div>
-      <div>
-        <article>
-          <h3>Skills</h3>
-          <ul>
-            <li>JavaScript</li>
-            <li>Node.js</li>
-            <li>React + Redux</li>
-            <li>Express, Mongoose</li>
-            <li>PostgreSQL, MongoDB</li>
-            <li>GIT</li>
-            <li>Figma</li>
-            <li>HTML, CSS</li>
-            <li>Java</li>
-          </ul>
-        </article>
-        <article>
-          <h3>Languages</h3>
-          <ul>
-            <li>Russian (native)</li>
-            <li>English (Upper-Intermediate)</li>
-            <li>Ukrainian (native)</li>
-          </ul>
-        </article>
-      </div>
-      <article>
-        <h3>Projects</h3>
-        <a href="./table1.html">Table</a><br />
-        <a href="">GITHUB</a>
-      </article>
     </main>
   </body>
 </html>
