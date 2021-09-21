@@ -17,9 +17,7 @@ main {
   display: flex;
   background: #f5f5f5;
   width: 50vw;
-  height: 100vh;
   max-width: 620px;
-  max-height: 1400px;
   align-items: center;
   flex-direction: column;
 }
@@ -44,9 +42,7 @@ main {
   display: flex;
   background: #d8d8d8;
   width: 50vw;
-  height: 100vh;
   max-width: 620px;
-  max-height: 1400px;
   align-items: center;
   flex-direction: column;
 }
@@ -85,7 +81,11 @@ li {
 }
 
 ol {
-  font-size: 30px;
+  font-size: 4vh;
+}
+
+ul {
+  font-size: 2vh;
 }
 
 h1 {
