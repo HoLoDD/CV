@@ -1,75 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>CV Kozlov</title>
-    <meta charset="utf-8" />
-    <meta name="author" content="Nikita Kozlov" />
-    <meta name="description" content="summary page" />
-    <link rel="stylesheet" href="styles.css" />
-    
-  </head>
-  <body>
-    <header class="header">
-        <p class="header-text">
+    <head>
+        <title>CV Kozlov</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Nikita Kozlov" />
+        <meta name="description" content="summary page" />
+        <link rel="stylesheet" href="styles.css" />
+        
+      </head>
+<body>
+    <header>
+        <div class="header-text">
             <h1>Nikita Kozlov</h1> 
             <h3>Full Stack Developer</h3>
-        </p>
-    </header>
-    <main>
-      <div class="left">
-          <img class="photo" src="./main_photo.jpg" alt="Фото" />
-          <article class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>React, Redux</li>
-                <li>Express, Mongoose</li>
-                <li>PostgreSQL, MongoDB</li>
-                <li>GIT</li>
-                <li>Figma</li>
-                <li>HTML, CSS</li>
-                <li>Java</li>
-            </ul>
-          </article>
-          <article class="languages">
-            <h2>Languages</h2>
-            <ul>
-                <li>English (Upper-Intermediate)</li>
-                <li>Russian (native)</li>
-                <li>Ukrainian (native)</li>
-            </ul>
-          </article>
         </div>
-      <div class="right">
-          <h4 class="contacts">
-            <h2>Contacts</h2>
-            <ul>
-                <li>Odessa, Ukraine</li>
-                <li>(+380) 93 - 083 - 61 - 91</li>
-                <li><a href="https://www.linkedin.com/in/nikita-kozlov-054236214/">LinkedIn <img
-                    src="linkedin-icon.svg"
-                    class="icon"
-                    alt="linedin-logo"
-                  /></a></li>
-                <li><a href="https://t.me/holo_d">Telegram <img
-                    src="telegram-icon.svg"
-                    class="icon"
-                    alt="telegram-logo"
-                  /></a></li>
-            </ul>
-          </article>
-          <article class="projects">
-              <h2>Projects</h2>
-              <ol>
-                  <li><a href="https://holodd.github.io/AimGame/">Aim Game</a></li>
-                  <li><a href="https://holodd.github.io/Cards/">Cards</a></li>
-                  <li><a href="https://holodd.github.io/Board/">Board</a></li>
-                  <li><a href="https://holodd.github.io/DragNDorp/">Drag & Drop</a></li>
-                  <li><a href="https://holodd.github.io/Slider/">Slider</a></li>
-              </ol>
-          </article>
-      </div>
+    </header>
+    <main class="container">
+        <div class="right">
+            <div class="block">
+                <div class="image">
+                    <img class="photo" src="./img/main_photo.jpg" alt="Photo" />
+                </div>
+            </div>
+            <div class="block">
+                <article class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>TypeScript</li>
+                        <li>Node.js, Express, Nest.js</li>
+                        <li>React.js, Redux, Mobx</li>
+                        <li>PostgreSQL, MongoDB</li>
+                        <li>Sequalize, Mongoose</li>
+                        <li>GIT</li>
+                        <li>Figma</li>
+                        <li>HTML, CSS</li>
+                        <li>Java</li>
+                    </ul>
+                  </article>
+            </div>
+            <div class="block">
+                <article class="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>English (Upper-Intermediate)</li>
+                        <li>Russian (native)</li>
+                        <li>Ukrainian (native)</li>
+                    </ul>
+                  </article>
+            </div>
+        </div>
+        <div class="left">
+            <div class="block">
+                <article>
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>Odessa, Ukraine</li>
+                        <li>(+380) 93 - 083 - 61 - 91</li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/nikita-kozlov-054236214/">LinkedIn <img
+                                src="./img/linkedin-icon.svg"
+                                class="icon"
+                                alt="linkedIn logo"></a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/holo_d">Telegram <img
+                                src="./img/telegram-icon.svg"
+                                class="icon"
+                                alt="telegram logo"></a>
+                        </li>
+                          <li>
+                              <a href="https://github.com/HoLoDD">GitHub <img 
+                                src="./img/github-icon.svg" 
+                                class="icon"
+                                alt="github logo"></a>
+                          </li>
+                    </ul>
+                  </article>
+            </div>
+            <div class="block">
+                <article>
+                    <h2>Education</h2>
+                    <ul>
+                        <li>
+                            <b>Odessa State Enviromantal University</b> <br>
+                            Bachelor's degree, Computer Scince <br>
+                            <i>2018 - 2022</i>
+                            
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <div class="block">
+                <article class="projects">
+                    <h2>Projects</h2>
+                    <ol>
+                        <li><a href="https://holodd.github.io/AimGame/">Aim Game</a></li>
+                        <li><a href="https://holodd.github.io/Cards/">Cards</a></li>
+                        <li><a href="https://holodd.github.io/Board/">Board</a></li>
+                        <li><a href="https://holodd.github.io/DragNDorp/">Drag & Drop</a></li>
+                        <li><a href="https://holodd.github.io/Slider/">Slider</a></li>
+                    </ol>
+                </article>
+            </div>
+        </div>
     </main>
-  </body>
+</body>
 </html>
